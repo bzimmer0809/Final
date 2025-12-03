@@ -10,7 +10,9 @@
 <body>
 <header>
   <h1>MAZE Studios</h1>
-  <img src="images/ZimmerBraedenPersonalLogo.jpeg" alt="Maze Studios">
+  <a href="index.html">
+    <img src="images/ZimmerBraedenPersonalLogo.jpeg" alt="Maze Studios">
+  </a>
   <nav>
     <a href="index.html">Home</a>
     <a href="video.html">Videos</a>
@@ -19,59 +21,62 @@
   </nav>
 </header>
 
-<main>
-  <div class="home-grid">
-    <!-- LEFT: Videos -->
-    <div>
-      <h2>Home Videos</h2>
-      <div class="video-grid">
-        <div class="video-card">
-          <img src="https://via.placeholder.com/400x200" alt="Video 1">
-          <p>Video Title 1</p>
+
+<main class="home-grid">
+  <!-- Videos Section (Left 3/4) -->
+  <section class="home-videos-section">
+    <h2>Latest Videos</h2>
+    <div class="home-video-row">
+      <div class="video-card">
+        <div class="video-wrapper">
+          <iframe src="https://www.youtube.com/embed/6x8ny8NW1YY?si=K8Y1TcG-I3Shhi9m" allowfullscreen></iframe>
         </div>
-        <div class="video-card">
-          <img src="https://via.placeholder.com/400x200" alt="Video 2">
-          <p>Video Title 2</p>
+        <p>Ghost - Alex Defoor (Feat. Ferris)</p>
+      </div>
+      <div class="video-card">
+        <div class="video-wrapper">
+          <iframe src="https://www.youtube.com/embed/5tplTG87VBE?si=NevavwNuPOjC9iTH" allowfullscreen></iframe>
         </div>
-        <div class="video-card">
-          <img src="https://via.placeholder.com/400x200" alt="Video 3">
-          <p>Video Title 3</p>
+        <p>Rain Gang - NotJenx & Ferris</p>
+      </div>
+      <div class="video-card">
+        <div class="video-wrapper">
+          <iframe src="https://www.youtube.com/embed/-cTdouB-9ig?si=IPHH2Yfqo62-YN4E" allowfullscreen></iframe>
         </div>
-        <div class="video-card">
-          <img src="https://via.placeholder.com/400x200" alt="Video 3">
-          <p>Video Title 4</p>
+        <p>K6 - Mace K (Feat. Maecon)</p>
+      </div>
+      <div class="video-card">
+        <div class="video-wrapper">
+          <iframe src="https://www.youtube.com/embed/vyjMFySZoE8?si=VcRcD8VbtUQvnuWD" allowfullscreen></iframe>
         </div>
+        <p>Mindstate - Renacido</p>
       </div>
     </div>
+  </section>
 
-    <!-- RIGHT: Updates / Blog -->
-    <div>
-      <h2>Updates / Blog</h2>
-      <div class="updates">
-        <div class="update-item">
-          <h3>Update Title 1</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at erat nec quam.</p>
-        </div>
-        <div class="update-item">
-          <h3>Update Title 2</h3>
-          <p>Praesent imperdiet nunc sit amet metus ultrices, id malesuada ligula scelerisque.</p>
-        </div>
-        <div class="update-item">
-          <h3>Update Title 3</h3>
-          <p>Fusce at sapien sit amet sapien facilisis tempor a sed lacus.</p>
-        </div>
+  <!-- Updates Section (Right 1/4) -->
+  <section class="home-updates-section">
+    <h2>Updates / Blog</h2>
+    <div class="updates">
+      <div class="update-item">
+        <h3>Update Title 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at erat nec quam.</p>
+      </div>
+      <div class="update-item">
+        <h3>Update Title 2</h3>
+        <p>Praesent imperdiet nunc sit amet metus ultrices, id malesuada ligula scelerisque.</p>
+      </div>
+      <div class="update-item">
+        <h3>Update Title 3</h3>
+        <p>Fusce at sapien sit amet sapien facilisis tempor a sed lacus.</p>
       </div>
     </div>
-  </div>
-
-  <footer>
-    <a href="https://www.youtube.com/@Maze_Studios">
-      <i class="fa-brands fa-youtube"></i>
-    </a>
-    <a href="https://www.instagram.com/maze_studios_/">
-      <i class="fa-brands fa-instagram"></i>
-    </a>
-  </footer>
+  </section>
 </main>
+
+<footer>
+  <a href="https://www.youtube.com/@Maze_Studios"><i class="fa-brands fa-youtube"></i></a>
+  <a href="https://www.instagram.com/maze_studios_/"><i class="fa-brands fa-instagram"></i></a>
+</footer>
 </body>
 </html>
